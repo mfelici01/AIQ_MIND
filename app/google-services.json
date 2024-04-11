@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "543196876834",
+    "project_id": "aiq-mind",
+    "storage_bucket": "aiq-mind.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543196876834:android:80c3e52473fb7b226aba7b",
+        "android_client_info": {
+          "package_name": "com.example.aiqmind"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnQ1rLaAhM5njyIUANp-xYxLIL_dunv6k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">    Quiz APP</string>
+    <string name="button_play">PLAY</string>
+    <string name="Topics">TOPICS</string>
+    <string name="share">Share</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="login"> Login</string>
+    <string name="register"> Registration </string>
+    <string name="username"> Username : </string>
+    <string name="password"> Password : </string>
+    <string name="identify"> Identify yourself</string>
+    <string name="register_us">Register With Us</string>
+    <string name="question_mdp_oublie"> What Scare You The MOST ? </string>
+    <string name="hint_mdp_oublie"> Exemple : My Wife , My Mother </string>
+    <string name="register_username"> Username : </string>
+    <string name="register_password"> Password : </string>
+    <string name="Date_birth"> JJ/MM/YYYY </string>
+    <string name="Date_birth_hint"> Date Of Birth : </string>
+    <string name="lets_play"> Let\'s Play </string>
+    <string name="logout">Log Out</string>
+</resources>

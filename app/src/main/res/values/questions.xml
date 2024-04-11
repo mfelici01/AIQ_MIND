@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Question type une reponse -->
+    <string name="question1">Question 1 : Qui est le directeur general d\'OpenAI, l’entreprise derriere Chat-GPT ? </string>
+    <string name="question1R1"> Tim Cook </string>
+    <string name="question1R2"> Sam Bankman-Fried </string>
+    <string name="question1R3"> Elon Musk </string>
+    <string name="question1R4"> Sam Altman (true) </string>
+
+    <string name="question6">Question 6 : Laquelle de ces affirmations ne fait pas partie des trois lois de la robotique d’Isaac Asimov ? </string>
+    <string name="question6R1"> Un robot ne peut pas blesser un être humain </string>
+    <string name="question6R2"> Un robot ne doit jamais mentir (true) </string>
+    <string name="question6R3"> Un robot doit obéir aux ordres </string>
+    <string name="question6R4"> Un robot doit protéger sa propre existence </string>
+
+    <!-- Question type reponse multiple -->
+    <string name="question2">Question 2 : Quels sont les principaux algorithmes utilisés en apprentissage automatique ? </string>
+    <string name="question2R1"> Régression linéaire </string>
+    <string name="question2R2"> Arbre de décision (true) </string>
+    <string name="question2R3"> Algorithmes génétiques </string>
+    <string name="question2R4"> Réseaux de neurones (true) </string>
+
+    <string name="question7">Question 7 : Quels sont les principaux langages de programmation utilisés en IA ? </string>
+    <string name="question7R1"> Python (true) </string>
+    <string name="question7R2"> Java </string>
+    <string name="question7R3"> C++ </string>
+    <string name="question7R4"> Lisp (true) </string>
+
+    <!-- Question type annee -->
+    <string name="question3">Question 3 : En quelle année Alan Turing a-t-il publié son article "Computing Machinery and Intelligence" qui a posé les bases du test de Turing ? </string>
+    <string name="question3R1"> 1950 </string>
+
+    <string name="question8">Question 8 : Quand a été créé le premier réseau de neurones artificiels, le perceptron, par Frank Rosenblatt ? </string>
+    <string name="question8R1"> 1957 </string>
+
+    <!-- Question type date -->
+    <string name="question4">Question 4 : Quand a été annoncée la victoire de la première équipe d\'IA sur les champions du monde en titre du jeu de Go, représenté par AlphaGo de DeepMind ? </string>
+    <string name="question4R1"> 27 mai 2017 </string>
+
+    <string name="question9">Question 9 : Quand a été fondée l\'entreprise OpenAI, qui est active dans la recherche en intelligence artificielle ? </string>
+    <string name="question9R1"> 4 novembre 2015 </string>
+
+    <!-- Questions type image -->
+    <string name="question5">Question 5 : Lequel de ces logos est celui de Gemini ? </string>
+
+    <string name="question10">Question 10 : Lequel de ces logos est celui de ChatGPT ? </string>
+
+</resources>
