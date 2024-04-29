@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">    Quiz APP</string>
+    <string name="app_name" translatable="false">AIQ MIND</string>
     <string name="button_play">PLAY</string>
-    <string name="Topics">TOPICS</string>
+    <string name="Topics" translatable="false">TOPICS</string>
     <string name="share">Share</string>
     <string name="rate_us">Rate Us</string>
     <string name="login"> Login</string>
@@ -11,11 +11,23 @@
     <string name="identify"> Identify yourself</string>
     <string name="register_us">Register With Us</string>
     <string name="question_mdp_oublie"> What Scare You The MOST ? </string>
-    <string name="hint_mdp_oublie"> Exemple : My Wife , My Mother </string>
+    <string name="hint_mdp_oublie"> Example : My Wife , My Mother </string>
     <string name="register_username"> Username : </string>
     <string name="register_password"> Password : </string>
-    <string name="Date_birth"> JJ/MM/YYYY </string>
+    <string name="Date_birth">" DD/MM/YYYY "</string>
     <string name="Date_birth_hint"> Date Of Birth : </string>
     <string name="lets_play"> Let\'s Play </string>
     <string name="logout">Log Out</string>
+    <string name="answer"> Answer </string>
+    <string name="next"> Next </string>
+    <string name="none" translatable="false"> </string>
+    <string name="default_year" translatable="false"> 0000 </string>
+    <string name="rate"> RATE US ! </string>
+    <string name="experiance"> Tell us your experience </string>
+    <string name="history">"History "</string>
+    <string name="Home"> Home </string>
+    <string name="image" translatable="false"> image </string>
+    <string name="score_result"> Your Final Score is : </string>
+    <string name="save"> Save </string>
+    <string name="saveDone"> Save Done </string>
 </resources>

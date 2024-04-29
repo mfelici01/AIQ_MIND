@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".questions.Question8">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/degrade">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="131dp"
+            android:layout_height="253dp"
+            android:layout_marginTop="76dp"
+            android:contentDescription="@string/image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/checkBoxQuestionText2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/screenshot_2024_03_31_201406_removebg_preview" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="418dp"
+            android:layout_height="450dp"
+            android:contentDescription="@string/image"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/rectengle_circle" />
+
+        <Button
+            android:id="@+id/checkBoxNext2"
+            android:layout_width="187dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginEnd="75dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/answer"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="341dp"
+            android:layout_height="235dp"
+            android:layout_marginBottom="40dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/checkBoxNext2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <CheckBox
+                android:id="@+id/checkBoxAnswer1_2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/question8R1" />
+
+            <CheckBox
+                android:id="@+id/checkBoxAnswer2_2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/question8R2" />
+
+            <CheckBox
+                android:id="@+id/checkBoxAnswer3_2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/question8R3" />
+
+            <CheckBox
+                android:id="@+id/checkBoxAnswer4_2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/question8R4" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/checkBoxQuestionText2"
+            android:layout_width="382dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/question8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.088"
+            app:layout_constraintStart_toStartOf="@+id/imageView9"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/backQuestion8"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/back_button" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

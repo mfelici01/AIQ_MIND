@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degrade"
+    tools:context=".questions.Question9">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="131dp"
+        android:layout_height="253dp"
+        android:layout_marginTop="76dp"
+        android:contentDescription="@string/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/screenshot_2024_03_31_201406_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="418dp"
+        android:layout_height="450dp"
+        android:layout_marginBottom="3dp"
+        android:contentDescription="@string/image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/rectengle_circle" />
+
+    <RadioGroup
+        android:id="@+id/groupRadio2"
+        android:layout_width="322dp"
+        android:layout_height="258dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/radioNext2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioAnswer1_2"
+            android:layout_width="match_parent"
+            android:layout_height="66.5dp"
+            android:text="@string/question9R1" />
+
+        <RadioButton
+            android:id="@+id/radioAnswer2_2"
+            android:layout_width="match_parent"
+            android:layout_height="66.5dp"
+            android:text="@string/question9R2" />
+
+        <RadioButton
+            android:id="@+id/radioAnswer3_2"
+            android:layout_width="match_parent"
+            android:layout_height="66.5dp"
+            android:text="@string/question9R3" />
+
+        <RadioButton
+            android:id="@+id/radioAnswer4_2"
+            android:layout_width="match_parent"
+            android:layout_height="66.5dp"
+            android:text="@string/question9R4" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/radioNext2"
+        android:layout_width="166dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/answer"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/backQuestion9"
+        android:layout_width="65dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_button" />
+
+    <TextView
+        android:id="@+id/radioQuestionText2"
+        android:layout_width="353dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/question9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

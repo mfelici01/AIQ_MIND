@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/degrade"
-    tools:context=".login_page">
+    tools:context=".connexion.Login">
 
 
     <com.google.android.material.textfield.TextInputEditText
@@ -53,6 +53,7 @@
         android:layout_marginStart="81dp"
         android:layout_marginTop="35dp"
         android:layout_marginEnd="79dp"
+        android:contentDescription="@string/image"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -70,6 +71,7 @@
         app:layout_constraintBottom_toTopOf="@+id/connexion"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/username" />
+        app:layout_constraintTop_toBottomOf="@+id/username"
+        android:autofillHints="" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
